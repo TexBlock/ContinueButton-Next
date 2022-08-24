@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "continue_button"
+version = "${version}"
+displayName = "ContinueButton-Next"
+authors = "Me!"
+description = '''
+This is an example description! Tell everyone what your mod is about!
+'''
+#logoFile = ""
+
+[[dependencies.continue_button]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.continue_button]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.continue_button]]
+modId = "architectury"
+mandatory = true
+versionRange = "[1.32.66,)"
+ordering = "AFTER"
+side = "BOTH"
